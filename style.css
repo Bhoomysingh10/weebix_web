@@ -1,0 +1,262 @@
+*{
+    font-family: system-ui,  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+.logo{
+    margin-left:10px;
+    
+}
+.navbr{
+    display: flex;
+    font-family: system-ui, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    font-size: 16px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#btn{
+    background-color: #5d56f1;
+    color:white;
+    border-radius: 30px;
+    padding:15px;
+    border:none;
+}
+.center{
+     
+    /*margin-left: 280px; */
+    font-size: 80px;
+    text-align: center;
+    line-height: 6rem;
+    
+}
+.sp{
+    margin-left: -20px;
+}
+.bot{
+    color: #5d56f1;
+}
+.up{
+    font-size: 20px; 
+    margin-top: 30px;
+    color: #5d56f1;
+    line-height: 1.2;
+}
+.description{
+    color:grey;
+    text-align: center;
+    line-height: 1.2;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5d56f1;
+    color:white;
+    min-width: 160px;
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.dropdown-content a:hover {
+    background-color: #5d56f1;
+    color:black;
+    display: inline;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    
+}
+
+.btn2{
+    display: flex;
+    width:22.5%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#btn1,#btn3{
+    background-color: #5d56f1;
+    color:white;
+    border-radius: 30px;
+    padding:15px;
+    border:none;
+}
+.caption{
+    font-size: 70px;
+    line-height: 79px;
+    text-align: left;
+    letter-spacing: -3.5px;
+    margin-top: 10px; 
+    margin-left: 110px;
+    font-weight: 500;
+}
+
+.smcap{
+    font-size: 20px;
+    line-height: 70px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5d56f1;
+    margin-bottom: 5px; 
+    margin-top: 150px;
+    margin-left: 110px;
+}
+
+.img{
+    margin-top: 5px;
+    margin-left: 110px;
+    height: 560px;
+    width: 500px;
+    border-radius: 12%;
+    
+}
+.points{
+     margin-left:75px;
+    color:#9c9fa6;
+}
+.container{
+    display: flex;
+}
+
+.list-content{
+    
+    display: flex;
+    margin-left:700px;
+    color:black;
+    line-height: 40px;
+    margin-top: -270px;
+    font-size: larger;
+    font-weight: 400;
+    list-style-type: none;
+}
+.list2{
+    margin-left: 20px;
+}
+.list-content li{
+    display: flex;
+    position: relative;
+}
+.list-content li::before{
+    content: "";
+   
+    height: 20px;
+    width:20px;
+    background-image: url('image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    top:50%;
+    margin-top: 8px;
+    margin-right: 5px;
+    
+} 
+
+#btn4{
+    margin-left:700px;
+    margin-top: 50px;
+    background-color: #5d56f1;
+    color:white;
+    border-radius: 30px;
+    padding:15px;
+    border:none;
+
+}
+.smcap2{
+    font-size: 20px;
+    line-height: 70px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5d56f1;
+    margin-bottom: 5px; 
+    margin-top: 150px;
+    margin-left: 110px;
+}
+.caption2{
+    font-size: 70px;
+    line-height: 79px;
+    text-align: left;
+    letter-spacing: -3.5px;
+    margin-top: 10px; 
+    margin-left: 110px;
+    font-weight: 500;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.btn5{
+    
+    background-color: #5d56f1;
+    color:white;
+    border-radius: 30px;
+    padding:5px;
+    border:none;
+    height: 50px;
+    width:150px;
+    margin-top: 25px;
+    
+    
+
+}
+.page3{
+    background-color: #f7f8fd;
+}
+.card1{
+    /* margin-left: 120px; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+    border-radius: 5px; 
+    background-color: white;
+    height:375px;
+    width:380px;
+    border-radius: 30px;
+  }
+
+
+.t{
+    font-size: 26px;
+    line-height: 28px;
+    text-align: start;
+    letter-spacing: normal;
+   
+    padding:20px;
+    margin-left: 20px;
+    
+}
+.he{
+    display:flex;
+}
+
+.text1{
+    color: #9c9fa6;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+.cardimg{
+    height:150px;
+    width:330px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    border-radius: 45px;
+}
+.trim{
+    width:20%;
+}
+.teencard{
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    
+    }
+
+
